@@ -1,0 +1,124 @@
+/* Make the main content responsive */
+main {
+    padding: 20px;
+}
+
+/* Define styles for different screen sizes using media queries */
+@media only screen and (max-width: 768px) {
+    /* Adjust layout for screens smaller than 768px */
+    main {
+        padding: 10px;
+    }
+}
+
+@media only screen and (max-width: 480px) {
+    /* Adjust layout for screens smaller than 480px */
+    main {
+        padding: 5px;
+    }
+}
+
+
+.image-group {
+    display: flex; /* Arrange images in a row */
+}
+
+.image-group img {
+    width: 200px; /* Set a fixed width for each image */
+    height: auto; /* Maintain aspect ratio */
+    margin-right: 10px; /* Add some spacing between images */
+}
+
+
+
+img:hover {
+    transform: scaleX(-1);
+  }
+
+
+
+
+
+
+.blur-on-hover {
+    filter: blur(0);
+    transition: filter 0.3s ease;
+}
+
+.blur-on-hover:hover {
+    filter: blur(5px);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Reset some default browser styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Global styles */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+}
+
+nav ul {
+    list-style: none;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+main {
+    padding: 20px;
+}
+
+.section {
+    margin-bottom: 40px;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+}
